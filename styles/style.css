@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 .header__button {
    font-size: 1.6rem;
    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
-   line-height: 2.4;
+   line-height: 1.6;
 }
 .main-display{
    padding-top: 27rem;
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 .main-display__button{
   background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
   font-size: 1.6rem; 
-  line-height: 2.4;
+  line-height: 1.6;
 }
 .mine-display__background{
    position: absolute;
@@ -160,6 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 .work__description {
    font-size: 1.6rem;
    line-height: 1.6;
+   opacity: .5;
 }
 .process {
    position: relative;
@@ -198,7 +199,7 @@ h1, h2, h3, h4, h5, h6 {
    margin-bottom: 4.9rem;
 }
 .process__header {
-   
+   padding-top: 1rem;
   font-size: 4.8rem;
   font-weight: 700;
   line-height: 1.4;
@@ -226,4 +227,53 @@ h1, h2, h3, h4, h5, h6 {
    font-size: 1.4rem;
    line-height: 1.8;
    opacity: .5;
+}
+.command {
+   margin-bottom: 20rem;
+}
+.command__header {
+   margin-bottom: 0;
+}
+.command .process__img {
+   transform: rotate(315deg);
+}
+.command__title {
+   margin-bottom: 11.9rem;
+}
+.command__wrap {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-left: -1.5rem;
+}
+.command__item {
+   width: 41.6rem;
+   height: 37.9rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.command__img {
+   width: 19rem;
+   height: 19rem;
+   margin-bottom: 4rem;
+   border-radius: 50%;
+}
+.command__name {
+   margin-bottom: 1.5rem;
+   font-size: 2.4rem;
+   text-align: center;
+}
+.command__professional {
+   margin-bottom: 3rem;
+   font-size: 1.6rem;
+   font-weight: 500;
+   line-height: 1.6;
+   opacity: .7;
+}
+.command__link {
+   font-size: 1.6rem;
+   font-weight: 400;
+   line-height: 1.5;
+   border: .1rem solid #ffffff;
 }
