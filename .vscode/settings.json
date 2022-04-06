@@ -1,0 +1,7 @@
+{
+   "files.autoSave": "onFocusChange",
+   "editor.fontSize": 17,
+   "editor.tabSize": 2,
+   "editor.wordWrap": "on",
+   "editor.bracketPairColorization.enabled": true
+}

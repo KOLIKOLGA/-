@@ -9,6 +9,7 @@
    <link href="./fonts/roboto.css" rel="stylesheet">
    <link rel="stylesheet" href="./styles/normalize.css">
    <link rel="stylesheet" href="./styles/style.css">
+   <link rel="stylisheet"  media="only screen and (max-device-width: 600px)" href="./styles/media.css"/>
    <title>Сборка ПК</title>
 </head>
 <body>
@@ -19,9 +20,9 @@
             <img src="./image/logo.svg" alt="">
          </a>
          <nav class="header__nav">
-            <a href="#">Чем занимаемся</a>
-            <a href="#">Процесс работы</a>
-            <a href="#">Команда</a>
+            <a href="#work">Чем занимаемся</a>
+            <a href="#process">Процесс работы</a>
+            <a href="#command">Команда</a>
          </nav>
        </div>
         <button type="button" class="button header__button">Оставить заявку</button>
@@ -32,19 +33,19 @@
         <div class="container">
           <h1 class="main-display__header">Собираем игровой ПК под ваш бюджет</h1> 
           <div class="timer main-display__timer">
-             <div class="timer__item">
+             <div class="timer__item block__center">
                 <div class="timer__count">18</div>
                 <div class="timer__text">Дней</div>
              </div>
-             <div class="timer__item">
+             <div class="timer__item block__center">
                <div class="timer__count">18</div>
                <div class="timer__text">Часов</div>
             </div>
-            <div class="timer__item">
+            <div class="timer__item block__center">
                <div class="timer__count">18</div>
                <div class="timer__text">Минут</div>
             </div>
-            <div class="timer__item">
+            <div class="timer__item block__center">
                <div class="timer__count">18</div>
                <div class="timer__text">Секунд</div>
             </div>
@@ -55,14 +56,14 @@
            <img src="./image/main-screen__bgc.png" alt="">
         </div>
      </section>
-     <section class="work">
+     <section class="work" id="work">
       <div class="container">
          <div class="work__wrap">
             <div class="work__img">
                <img src="./image/about__img.png">
             </div>
             <div class="work__text">
-               <h2 class="work__header">Чем мы занимаемся</h2>
+               <h2 class="work__header" >Чем мы занимаемся</h2>
                <p class="work__description">Помогаем сэкономить до 40% стоимости игрового компьютера 
                   без потери производительности. Подбираем мощные детали компьютера, 
                   заказываем у своих поставщиков или напрямую у производителей, 
@@ -72,14 +73,14 @@
          </div>
       </div>
      </section>
-     <section class="process">
+     <section class="process" id="process">
         <div class="container">
            <div class="process__wrap">
               <div class="process__title">
                  <div class="process__img">
                     <img src="./image/icon-heading.png" alt="">
                  </div>
-                 <h2 class="process__header">Процесс работы</h2>
+                 <h2 class="process__header" >Процесс работы</h2>
            </div>
            <div class="process__description">
               Подробно рассказываем о том, как происходит сборка,
@@ -121,16 +122,16 @@
      </div>
         </div>
      </section>
-     <section class="command">
+     <section class="command" id="command">
         <div class="container">
          <div class="process__title command__title">
             <div class="process__img">
                <img src="./image/icon-heading.png"  alt="">
             </div>
-            <h2 class="process__header command__header">Наша команда</h2>
+            <h2 class="process__header command__header" >Наша команда</h2>
          </div>
          <div class="command__wrap">
-            <div class="command__item">
+            <div class="command__item block__center">
                <div class="command__img">
                   <img src="./image/Ellipse 22.png" alt="#">
                </div>
@@ -138,7 +139,7 @@
                <p class="command__professional">Специалист по видеокартам</p>
                <a href="#" class="button command__link">Биография</a>
             </div>
-            <div class="command__item">
+            <div class="command__item block__center">
                <div class="command__img">
                   <img src="./image/Ellipse 21.png" alt="#">
                </div>
@@ -146,7 +147,7 @@
                <p class="command__professional">Специалист по видеокартам</p>
                <a href="#" class="button command__link">Биография</a>
             </div>
-            <div class="command__item">
+            <div class="command__item block__center">
                <div class="command__img">
                   <img src="./image/Ellipse 2.png" alt="#">
                </div>
@@ -155,6 +156,29 @@
                <a href="#" class="button command__link">Биография</a>
             </div>
          </div>
+        </div>
+     </section>
+     <section class="assembly">
+        <div class="container">
+           <div class="assembly__wrap block__center">
+              <h2 class="assembly__header">Закажите свою уникальную сборку</h2>
+              <div class="assembly__description">Мы свяжемся с вами, чтобы уточнить детали заказа</div>
+              <button class="button assembly__button">Оставить заявку</button>
+              <div class="assembly__socials">
+                 <div class="assembly__item">
+                    <img src="./image/vk.svg" alt="">
+                 </div>
+                 <div class="assembly__item">
+                  <img src="./image/youtube.svg" alt="">
+               </div>
+               <div class="assembly__item">
+                  <img src="./image/facebook.svg" alt="">
+               </div>
+               <div class="assembly__item">
+                  <img src="./image/instagram.svg" alt="">
+               </div>
+              </div>
+           </div>
         </div>
      </section>
   </main>
