@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5, h6 {
    display: flex;
    justify-content: space-between;
    width: 99rem;
+  
 }
 .header__nav {
    width: 46.3rem;
@@ -86,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
    height: 4rem;
 }
 .header__button {
+   white-space: nowrap;
    font-size:  var(--text-size-medium);
    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
    line-height: 1.6;
