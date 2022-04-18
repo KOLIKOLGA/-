@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
    line-height: 1.6;
 }
 .main-display{
-   padding-top: 27rem;
+   padding-top: 20rem;
 }
 .main-display .container {
    position: relative;
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .main-display__header {
    max-width: 76rem;
-   margin-bottom: 5rem;
+   margin-bottom: 4rem;
    font-size: 6.4rem;
    font-weight: 700 ;
    line-height: 1.4;
