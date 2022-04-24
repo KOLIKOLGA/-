@@ -70,9 +70,10 @@ h1, h2, h3, h4, h5, h6 {
 .header__nav {
    width: 46.3rem;
    display: flex;
-   flex-wrap: wrap;
+   flex-wrap: nowrap;
    align-items: center;
    justify-content: space-between;
+   gap: 30px;
    font-size: var(--text-size-medium);
    line-height: 1.5;
 }
@@ -174,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .work__wrap {
    display: flex;
-   /* flex-wrap: wrap; */
+  
 }
 .work__img {
    width: 52.6rem;
@@ -425,22 +426,3 @@ h1, h2, h3, h4, h5, h6 {
 .padding__right {
    padding-right: 22px;
 }
-/* @media screen and (max-width: 1050px) {
-   .container {
-      width: 90rem;
-      padding-left: 10rem;
-   }
-   .header__button{
-     margin-top: 2rem;
-     margin-left: 35rem;
-   }
-   .work__wrap {
-      flex-wrap: wrap;
-      flex-direction: column;
-   }
-   .header__menu {
-      flex-direction: column;
-      justify-content: right;
-   }
-   
-} */
