@@ -3,7 +3,8 @@ const hoursBlock = document.querySelector('.timer__hours');
 const minuteBlock = document.querySelector('.timer__minutes');
 const secondsBlock = document.querySelector('.timer__seconds');
 
-let interval
+
+let interval;
 
 const numWord = (value, words) => {
   value = Math.abs(value) % 100;
@@ -48,6 +49,10 @@ const updateTimer = () => {
     hoursBlock.textContent = '00';
     minuteBlock.textContent = '00';
     secondsBlock.textContent = '00';
+    daysBlock.style.color = 'red';
+    hoursBlock.style.color = 'red';
+    minuteBlock.style.color = 'red';
+    secondsBlock.style.color = 'red';
   }
 };
 
