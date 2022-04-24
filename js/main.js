@@ -31,7 +31,7 @@ modalClose.addEventListener('click', () => {
   body.classList.remove('padding__right');
   mineDisplayBackgroundImage.classList.remove('padding__right');
 });
-
+// таймер я нашла в интернете
 document.addEventListener('DOMContentLoaded', function () {
   // конечная дата
   const deadline = new Date(new Date().getFullYear(), new Date().getMonth() + 1, 01);
